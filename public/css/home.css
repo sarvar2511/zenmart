@@ -24,7 +24,7 @@
 
 .container .category_top span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -34,7 +34,7 @@
 .container .category_top a {
   margin-left: 30px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -125,11 +125,10 @@
 
 .container .product_content_box .product_title {
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
 }
@@ -139,7 +138,7 @@
   width: 100%;
   margin-top: 7px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -161,11 +160,10 @@
 .container .review_box span {
   margin-left: 10px;
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -179,22 +177,20 @@
 
 .container .price_box strong {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
 .container .price_box span {
   margin-left: 10px;
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
   text-decoration-line: line-through;
 }
@@ -244,11 +240,10 @@
   border-radius: 6px;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -256,7 +251,7 @@
   margin-top: 10px;
   width: 428px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-size: 60px;
   font-weight: 400;
@@ -268,7 +263,7 @@
 .header_frame .header_content p {
   margin-top: 10px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -291,7 +286,7 @@
   border-radius: 6px;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-size: 15px;
   font-weight: 500;
@@ -333,22 +328,20 @@
 
 .header_frame .box_left span {
   color: rgb(0, 83, 246);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
 }
 .header_frame .box_left p {
   margin: 10px 0px;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 400;
   line-height: 38px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -364,7 +357,7 @@
   padding: 0px;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -418,22 +411,20 @@
 
 .service_frame .service_content span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0%;
   text-align: left;
   font-style: normal;
 }
 
 .service_frame .service_content p {
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -487,7 +478,7 @@
 .shop_category_frame .category_box span {
   margin-top: 15px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -570,7 +561,7 @@
   box-shadow: 0px 5px 20px rgba(0, 83, 246, 0.1);
   border-radius: 6px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-size: 15px;
   font-weight: 500;
@@ -593,7 +584,7 @@
   justify-content: center;
 
   color: rgb(0, 83, 246);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -653,7 +644,7 @@
 
 .big_product_content span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -663,7 +654,7 @@
 .big_product_content p {
   margin: 7px 0px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 400;
   line-height: 38px;
@@ -672,7 +663,7 @@
 
 .big_product_content a {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -723,7 +714,7 @@
 
 .small_product_content strong {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -732,7 +723,7 @@
 
 .small_product_content span {
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -833,7 +824,7 @@
 
 .event_content_box p {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -848,7 +839,7 @@
   flex-direction: row;
 
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -865,7 +856,7 @@
 
 .timer_box strong {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -874,7 +865,7 @@
 
 .timer_box span {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -891,7 +882,7 @@
   background: #ffffff;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
