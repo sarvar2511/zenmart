@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenmart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../public/css/command.css" />
+    <link rel="stylesheet" href="../public/css/cart.css" />
+  </head>
+
+  <body>
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <a href="../Index.html">
+            <img src="../public/images/icons/logo.png" alt="" />
+          </a>
+          <div class="nav_search_frame">
+            <div class="nav_search_box">
+              <div class="category_list">
+                <select>
+                  <option value="" selected>All Categories</option>
+                  <option value="">Computers</option>
+                </select>
+              </div>
+              <input type="search" placeholder="Search products..." />
+            </div>
+            <div class="nav_icon_box">
+              <img src="../public/images/icons/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <a href="../order/cart.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="../public/images/icons/heart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Wish list</span>
+                  <strong>My items</strong>
+                </div>
+              </div>
+            </a>
+            <a href="../other/login.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <i class="fa-solid fa-user" style="color: #ffffff"></i>
+                </div>
+                <div class="box_info_box">
+                  <span>Sign in</span>
+                  <strong>Account</strong>
+                </div>
+              </div>
+            </a>
+            <a href="../order/cart.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <div class="basket_count">2</div>
+                  <img src="../public/images/icons/shopping-cart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>$200</span>
+                  <strong>Total</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="navbar_bott">
+          <div class="navbar_bot_menu_box">
+            <div class="browse_box">
+              <img src="../public/images/icons/browse.svg" alt="" />
+              <span>Browse Categories</span>
+            </div>
+            <div class="navbar_route_menu">
+              <div class="router_menu">
+                <a href="../Index.html">Home</a>
+              </div>
+              <div class="router_menu">
+                <a href="./all.html" class="active">Shop</a>
+              </div>
+              <div class="router_menu">
+                <a href="../order/cart.html">Orders</a>
+              </div>
+              <div class="router_menu">
+                <a href="../other/about.html">About</a>
+              </div>
+              <div class="router_menu">
+                <a href="../other/contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="sorting_menu">
+              <span>Deal of the Day</span>
+              <span>Hot Deals</span>
+              <span>Best Sellers</span>
+              <span>New Arrivals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart_frame">
+      <div class="container">
+        <div class="page_router">
+          <span>Home</span>
+          <span class="drop">/</span>
+          <span>Electronics</span>
+          <span class="drop">/</span>
+          <span>Computers</span>
+          <span class="drop">/</span>
+          <span class="active">Desktop Computers</span>
+        </div>
+
+        <div class="shopping_cart">
+          <span>Shopping Cart</span>
+          <p>Buy $98.00 more to enjoy FREE Shipping</p>
+          <div class="star_level">
+            <div class="star_line">
+              <p class="p1"></p>
+              <p class="p2"></p>
+            </div>
+            <div class="star_img">
+              <img src="../public/images/icons/process_icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="in_cart_product">
+          <div class="all_products">
+            <div class="head_menu">
+              <div>PRODUCT</div>
+              <p>PRICE</p>
+              <p>QUANTITY</p>
+              <p>TOTAL</p>
+              <p>REMOVE</p>
+            </div>
+
+            <div class="cart_product_boxses">
+              <div class="cart_product_box">
+                <div class="img">
+                  <img src="../public/images/products/macbook_16.png" alt="" />
+                </div>
+                <div class="product_info">
+                  <p>Apple MacBook Pro with Apple M1 Chip</p>
+                  <p>Hard Drive Capacity: 256</p>
+                  <p>Actual Color: Silver</p>
+                </div>
+                <div class="price">$339.9</div>
+                <div class="buttons">
+                  <div class="quantity">
+                    <p>--</p>
+                    <strong>3</strong>
+                    <p>+</p>
+                  </div>
+                </div>
+                <div class="total_price">$339.9</div>
+                <div class="remove"><i class="fa-solid fa-x"></i></div>
+              </div>
+              <div class="cart_product_box">
+                <div class="img">
+                  <img src="../public/images/products/macbook_16.png" alt="" />
+                </div>
+                <div class="product_info">
+                  <p>Apple MacBook Pro with Apple M1 Chip</p>
+                  <p>Hard Drive Capacity: 256</p>
+                  <p>Actual Color: Silver</p>
+                </div>
+                <div class="price">$339.9</div>
+                <div class="buttons">
+                  <div class="quantity">
+                    <p>--</p>
+                    <strong>3</strong>
+                    <p>+</p>
+                  </div>
+                </div>
+                <div class="total_price">$339.9</div>
+                <div class="remove"><i class="fa-solid fa-x"></i></div>
+              </div>
+              <div class="cart_product_box">
+                <div class="img">
+                  <img src="../public/images/products/macbook_16.png" alt="" />
+                </div>
+                <div class="product_info">
+                  <p>Apple MacBook Pro with Apple M1 Chip</p>
+                  <p>Hard Drive Capacity: 256</p>
+                  <p>Actual Color: Silver</p>
+                </div>
+                <div class="price">$339.9</div>
+                <div class="buttons">
+                  <div class="quantity">
+                    <p>--</p>
+                    <strong>3</strong>
+                    <p>+</p>
+                  </div>
+                </div>
+                <div class="total_price">$339.9</div>
+                <div class="remove"><i class="fa-solid fa-x"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart_total">
+            <strong>Cart Total</strong>
+            <div class="calculation">
+              <div>
+                <p>Product Subtotal</p>
+                <p>Order Discounts</p>
+                <p>Estimated</p>
+                <p>Shipping</p>
+                <p>Estimated Taxes</p>
+              </div>
+              <div>
+                <span>$</span>
+                <span>299.99</span>
+                <span>-$30.01</span>
+                <span style="color: red">Free</span>
+                <span>$26</span>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="total_price">
+              <p>Total</p>
+              <span>$225.98</span>
+            </div>
+            <div class="checkout_button">
+              <button>Proceed to checkout</button>
+            </div>
+          </div>
+        </div>
+        <div class="main_buttons">
+          <div class="coupon_button">
+            <span>Coupon code</span>
+            <a href="">Apply Coupon</a>
+          </div>
+          <div class="cart_buttons">
+            <button class="continue_shopping">Continue Shopping</button>
+            <button class="update_cart">Update cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer_frame">
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_contact_box">
+            <span class="footer_spec_title">Contact Us</span>
+            <div class="footer_contact_main">
+              <img src="../public/images/icons/phone-call.svg" alt="" />
+              <div>
+                <strong>Monday-Friday: 08am-9pm</strong>
+                <span>+(1) 123 456 7890</span>
+              </div>
+            </div>
+            <div class="footer_contact_main">
+              <img src="../public/images/icons/email.svg" alt="" />
+              <div>
+                <strong>Need help with your order?</strong>
+                <span>support@zenmart.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_support_box">
+            <span class="footer_spec_title" style="margin-bottom: 10px"
+              >Customer Support</span
+            >
+            <a href="">Contact Us</a>
+            <a href="">Help Centre </a>
+            <a href="">Returns & Exchanges</a>
+            <a href="">Best Buy Financing</a>
+            <a href="">Best Buy Gift Card</a>
+          </div>
+          <div class="footer_support_box">
+            <span class="footer_spec_title" style="margin-bottom: 10px"
+              >Services</span
+            >
+            <a href="">Geek Squad</a>
+            <a href="">In-Home Advisor </a>
+            <a href="">Trade-In Program</a>
+            <a href="">Electronics Recycling</a>
+            <a href="">Best Buy Health</a>
+          </div>
+          <div class="footer_media_box">
+            <div class="footer_media_main">
+              <span class="footer_spec_title" style="margin-bottom: 20px">
+                Follow Us
+              </span>
+              <div class="media_box">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+            <div class="footer_media_main" style="margin-top: 30px">
+              <span class="footer_spec_title" style="margin-bottom: 20px">
+                Follow Us
+              </span>
+              <div class="mobile_app_box">
+                <img src="../public/images/icons/apple_icon.png" alt="" />
+                <span>iOS App</span>
+              </div>
+              <div class="mobile_app_box">
+                <img src="../public/images/icons/android_icon.png" alt="" />
+                <span>Android App</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_media_box">
+            <div class="footer_media_main" style="margin-top: 130px">
+              <span class="footer_spec_title" style="margin-bottom: 20px">
+                We accept
+              </span>
+              <div class="card_box">
+                <img src="../public/images/icons/visa.png" alt="" />
+                <img src="../public/images/icons/master_card.png" alt="" />
+                <img src="../public/images/icons/apple_pay.png" alt="" />
+                <img src="../public/images/icons/dicvover.png" alt="" />
+                <img src="../public/images/icons/paypal.png" alt="" />
+                <img src="../public/images/icons/amex.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_main">
+            <div class="footer_bottom_left">
+              <span>© 2022 Zenmart. All Rights Reserved</span>
+              <span>Privacy · Terms · Sitemap</span>
+            </div>
+            <div class="footer_bottom_right">
+              <div class="footer_select_box">
+                <span>Currency</span>
+                <select name="" id="">
+                  <option value="" selected>USD</option>
+                  <option value="">UZS</option>
+                </select>
+              </div>
+              <div class="footer_select_box">
+                <span>Language</span>
+                <select name="" id="">
+                  <option value="" selected>English</option>
+                  <option value="">Uzbek</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
