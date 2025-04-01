@@ -1,0 +1,485 @@
+.checkout_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* HEADER */
+
+.checkout_page .header_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_frame .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_frame p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* CHECKOUT */
+
+.checkout_page .checkout_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout_frame .container {
+  flex-direction: row;
+}
+
+/* BILLING DETAILS */
+
+.checkout_frame .container .details {
+  width: 858px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .container .details p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.checkout_frame .details .billing_details {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .billing_details .name {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkout_frame .name input {
+  width: 413px;
+  height: 55px;
+  padding: 15px;
+
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+  box-sizing: border-box;
+
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .billing_details .company_name {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .billing_details .company_name input {
+  width: 100%;
+  height: 55px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .billing_details .adress {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .adress .country {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .adress .country select {
+  width: 100%;
+  height: 55px;
+  padding: 15px 15px;
+
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .adress .street {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .adress .street input {
+  width: 100%;
+  height: 55px;
+  padding: 15px 15px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .adress .town {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .adress .town input {
+  width: 100%;
+  height: 55px;
+  padding: 15px 15px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .adress .state {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .adress .state select {
+  width: 100%;
+  height: 55px;
+  padding: 15px 15px;
+
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .adress .zip_code {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .adress .zip_code input {
+  width: 100%;
+  height: 55px;
+  padding: 15px 15px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .billing_details .contact {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkout_frame .contact input {
+  width: 413px;
+  height: 55px;
+  padding: 15px;
+
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+  box-sizing: border-box;
+
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+/* SHIPPING DETAILS */
+
+.checkout_frame .container .shipping_details {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 346px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .shipping_details strong {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+}
+
+.checkout_frame .shipping_details textarea {
+  width: 100%;
+  height: 257px;
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+/* YOUR ORDER */
+
+.checkout_frame .container .your_order_view {
+  width: 422px;
+  height: auto;
+  margin-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .your_order_view .your_order {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.checkout_frame .your_order strong {
+  display: inline-block;
+  padding: 30px 0px 24px 28px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+}
+
+.checkout_frame .your_order content {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkout_frame .your_order p {
+  display: inline-block;
+  margin-left: 28px;
+  margin-bottom: 22px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.checkout_frame .your_order span {
+  display: inline-block;
+  margin-left: 16px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: right;
+}
+
+.checkout_frame .your_order .pricing {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout_frame .your_order .pricing .price_content {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .price_content .line {
+  width: 365px;
+  height: 1px;
+  margin: 0px 28px -28px 28px;
+
+  background: rgb(234, 234, 234);
+}
+
+.checkout_frame .price_content div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout_frame .price_content strong {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+
+.checkout_frame .price_content span {
+  margin-right: 36px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: right;
+}
+
+.checkout_frame .your_order_view .place_order {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_frame .your_order_view .place_order .policy {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkout_frame .place_order .policy input {
+  box-sizing: border-box;
+  border: 1px solid rgb(4, 30, 66);
+  border-radius: 4px;
+}
+
+.checkout_frame .place_order .policy p {
+  margin-left: 13px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.checkout_frame .place_order button {
+  width: 100%;
+  height: 52px;
+  margin-top: 30px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 6px;
+
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgb(245, 195, 75);
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
