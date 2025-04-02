@@ -1,0 +1,204 @@
+.received_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* HEADER */
+
+.received_page .main_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_frame .container {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 78px;
+}
+
+.main_frame .container .order_complete {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_frame .container .order_complete div {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+
+  background: rgb(68, 50, 151);
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_frame .container .order_complete div i {
+  color: white;
+}
+
+.main_frame .container .order_complete strong {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+
+.main_frame .container .order_complete p {
+  margin-bottom: 40px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+
+.main_frame .container .order_info {
+  width: 100%;
+  height: 132px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border-bottom: 1px dashed #626974;
+  border-right: 1px dashed rgb(98, 105, 116);
+  border-top: 1px dashed rgb(98, 105, 116);
+  border-radius: 6px;
+
+  background: #626974;
+}
+
+.main_frame .order_info .content {
+  width: 928px;
+  height: 59px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_frame .order_info .content p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.main_frame .order_info .content span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+
+.main_frame .container .order_details {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  padding: 0px 74px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.main_frame .container .order_details strong {
+  margin-top: 38px;
+  margin-bottom: 18px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.main_frame .order_details .price_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_frame .order_details .line {
+  width: 100%;
+  height: 1px;
+
+  margin: 10px 0px;
+
+  background: rgb(234, 234, 234);
+}
+
+.main_frame .price_info span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+
+.main_frame .price_info p {
+  display: inline-block;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: right;
+}
+
+.main_frame .order_details .item_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_frame .order_details .item_name p {
+  display: inline-block;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: right;
+}
+
+.main_frame .order_details .item_name span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
