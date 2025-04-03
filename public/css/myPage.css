@@ -1,0 +1,347 @@
+/* MY PAGE */
+
+.my_page_frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.my_page_frame .container {
+  margin-top: 106px;
+  margin-bottom: 50px;
+  flex-direction: row;
+}
+
+/* ACCOUNT MENU */
+
+.my_page_frame .container .account_menu {
+  width: 198px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .account_menu .account {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.my_page_frame .account_menu .account img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.my_page_frame .account_menu .account .account_name {
+  margin-left: 10px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .account .account_name strong {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.my_page_frame .account .account_name p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.my_page_frame .account_menu .line {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0px;
+
+  background: rgb(234, 234, 234);
+}
+
+.my_page_frame .account_menu .menu {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .account_menu .menu .icon {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my_page_frame .account_menu .menu .icon span {
+  margin-left: 11px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* ACCOUNT DETAILS */
+
+.my_page_frame .container .account_details {
+  width: 1057px;
+  height: auto;
+  margin-left: 65px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .container .account_details strong {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.my_page_frame .account_details .tab_head {
+  width: 351px;
+  height: auto;
+  margin: 30px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my_page_frame .account_details .tab_head span {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(98, 105, 116);
+}
+
+.my_page_frame .account_details .tab_head span.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+  text-decoration-color: rgb(4, 30, 66);
+}
+
+.my_page_frame .account_details .buttons {
+  width: auto;
+  height: auto;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.my_page_frame .buttons .update {
+  position: relative;
+  width: 118px;
+  height: 52px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 15px 35px 15px 35px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 6px;
+
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgb(245, 195, 75);
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.my_page_frame .buttons .cencel {
+  margin-left: 19px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.my_page_frame .account_details .inputs {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.my_page_frame .account_details .inputs div p {
+  margin-bottom: 5px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.my_page_frame .account_details .inputs div input {
+  width: 517px;
+  height: 55px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.my_page_frame .account_details .password {
+  width: 600px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .account_details .permissions {
+  width: 725px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .account_details .permissions .permisson_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page_frame .permisson_boxes .permisson_box {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.my_page_frame .permisson_boxes .permisson_box p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.my_page_frame .permisson_boxes .permisson_box .main {
+  width: 725px;
+  height: 49px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my_page_frame .permisson_boxes .permisson_box .main span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.my_page_frame .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.my_page_frame .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.my_page_frame .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(243, 245, 246);
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.my_page_frame .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 3.5px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.my_page_frame input:checked + .slider {
+  background-color: rgb(4, 30, 66);
+}
+.my_page_frame input:checked + .slider:before {
+  transform: translateX(24px);
+}
