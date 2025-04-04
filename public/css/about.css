@@ -1,0 +1,284 @@
+.about_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* PICTURE */
+
+.about_page .picture_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture_frame .container {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.picture_frame .container .picture_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture_frame .picture_boxes .picture_box {
+  width: 50%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture_frame .picture_box .small_pictures {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture_frame .picture_box img {
+  border-radius: 5px;
+}
+
+/* OUR STORE */
+
+.about_page .our_store_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.our_store_frame .container {
+  width: 1142px;
+
+  flex-direction: column;
+  margin-bottom: 449px;
+}
+
+.our_store_frame .container strong {
+  margin-bottom: 30px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 420;
+  line-height: 40px;
+  text-align: left;
+}
+
+.our_store_frame .container .about_our_store p {
+  margin-bottom: 26px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 410;
+  line-height: 35px;
+  text-align: left;
+}
+
+.our_store_frame .container .about_our_store .simple_text {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.our_store_frame .container .about_our_store .mission_and_vision {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.our_store_frame .mission_and_vision span {
+  margin: 30px 0px 22px 0px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 420;
+  line-height: 29px;
+  text-align: left;
+}
+
+.our_store_frame .container .line {
+  width: 100%;
+  height: 1px;
+  margin: 60px 0px;
+
+  background: rgb(234, 234, 234);
+}
+
+/* ACHIEVEMENTS */
+
+.our_store_frame .container .our_achievements {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.our_store_frame .our_achievements .achievement_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.our_store_frame .achievement_boxes .achievement_box {
+  width: 165px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our_store_frame .achievement_box span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+
+.our_store_frame .achievement_box p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* LIDERS */
+
+.our_store_frame .container .our_leaders {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.our_store_frame .our_leaders .leaders {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.our_store_frame .leaders .leader_view {
+  width: 280px;
+  height: 403px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.our_store_frame .leaders .leader_view img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.our_store_frame .leaders .leader_view p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.our_store_frame .leaders .leader_view span {
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+/* REASON */
+
+.our_store_frame .container .reason_to_choose {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.our_store_frame .reason_to_choose .info_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.our_store_frame .info_boxes .info_box {
+  width: 207px;
+  height: 115px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_store_frame .info_box span {
+  margin-top: 20px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.our_store_frame .info_box p {
+  margin-top: 7px;
+
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
