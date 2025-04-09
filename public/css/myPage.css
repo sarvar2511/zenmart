@@ -322,7 +322,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(243, 245, 246);
+  background-color: rgb(194, 194, 194);
   border-radius: 25px;
   transition: 0.3s;
 }
@@ -334,7 +334,7 @@
   width: 18px;
   left: 4px;
   bottom: 3.5px;
-  background-color: white;
+  background-color: rgb(237, 237, 237);
   border-radius: 50%;
   transition: 0.3s;
 }
