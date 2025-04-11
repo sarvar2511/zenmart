@@ -11,7 +11,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
 .login_frame .login_container {
@@ -115,6 +114,7 @@ body {
 
 .login_container .account_safety .lost {
   display: block;
+  cursor: pointer;
   width: 76%;
   color: rgb(68, 50, 151);
   font-family: var(--font);
@@ -223,6 +223,7 @@ body {
 
   box-sizing: border-box;
   border-radius: 8px;
+  cursor: pointer;
 
   display: flex;
   justify-content: center;
